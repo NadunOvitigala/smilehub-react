@@ -1,0 +1,42 @@
+.services {
+    padding: 80px 40px;
+    background: #ffffff;
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .services .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .service-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+  }
+  
+  .service-card span {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-weight: 600;
+    z-index: 1;
+  }
+  

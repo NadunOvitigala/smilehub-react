@@ -1,0 +1,29 @@
+.features {
+    padding: 80px 40px;
+    text-align: center;
+    background: #f8faff;
+  }
+  
+  .features h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .features .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+  }
+  
+  .features .card {
+    background: white;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  }
+  
+  .features .card h3 {
+    margin-bottom: 10px;
+    color: #1e6bff;
+  }
+  
