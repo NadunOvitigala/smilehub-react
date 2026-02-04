@@ -29,7 +29,7 @@ export default function Appointment() {
 
     try {
       const response = await fetch(
-        "https://x80shejby1.execute-api.ap-south-1.amazonaws.com/book-appointment",
+        "https://d8ttkphnxe.execute-api.ap-south-1.amazonaws.com/book-appointment",
         {
           method: "POST",
           headers: {
